@@ -27,7 +27,7 @@ or install these packages from `requirements.txt` attached to this repository:
 
 Install `espeak`:
 
-		(venv)arsho@arsho:/media/arsho/Documents/PyPrac/speech$ sudo apt-get install espeak
+		(venv)$ sudo apt-get install espeak
 		
 #### Running Python code using IDLE3 in Virtual Environment
 
@@ -41,6 +41,4 @@ To run IDLE3 while `venv` is activated use the following command. Then browse an
 </ul>
 
 <h3>Enjoy!</h3>
-<p>
-If you have any suggestion, send a message to <a href="https://www.facebook.com/ars.shovon">https://www.facebook.com/ars.shovon</a>
-</p>
+

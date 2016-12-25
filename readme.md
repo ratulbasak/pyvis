@@ -9,14 +9,13 @@ Voice activated digital assistant. Created using Python3, SpeechRecognition, esp
 
 I prefer using Virtual environment to play with new libraries and packages so that my core packages remain unharmed.
 To use this in virtual environment open a terminal (I am using Ubuntu 15.04 and Python3) and follow the steps.
-		(venv)arsho@arsho:/media/arsho/Documents/PyPrac/speech$ python -m idlelib.idle
 
-Create and activate `virtualenv` (Virtual Environment) with `Python3`:
+1. Create and activate `virtualenv` (Virtual Environment) with `Python3`:
 
 		$ virtualenv -p python3 venv
 		$ source venv/bin/activate
 
-Install necesarry packages inside the `virtualenv`:
+2. Install necesarry packages inside the `virtualenv`:
 
 		(venv)$ pip install SpeechRecognition
 		(venv)$ pip install pyaudio
@@ -25,9 +24,9 @@ or install these packages from `requirements.txt` attached to this repository:
 
 		(venv)$ pip install -r requirements.txt
 
-Install `espeak`:
+3. Install `espeak`:
 
-		(venv)arsho@arsho:/media/arsho/Documents/PyPrac/speech$ sudo apt-get install espeak
+		(venv)$ sudo apt-get install espeak
 		
 #### Running Python code using IDLE3 in Virtual Environment
 
